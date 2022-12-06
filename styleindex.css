@@ -1,0 +1,32 @@
+*{
+    background-color: #feffff;
+    color: #17252a;
+}
+/* h1{
+    font-size: 70px;
+} */
+.nav-item{
+    float: right;
+}
+.container{
+    text-align: center;
+}
+button.login{
+    background-color: #2b7a78;
+    color: #feffff;
+}
+button.login:hover{
+    background-color: #339591;
+    color: #feffff;
+}
+button.register{
+    background-color: #def2f1;
+    color: #17252a;
+}
+button.register:hover{
+    background-color: #b5e2df;
+    color: #17252a;
+}
+li{
+    text-align: center;
+}
