@@ -37,10 +37,11 @@ li{
     width: 40%;
 }
 .popup{
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    z-index: 1;
 }
 .popup{
     display: none;
@@ -111,8 +112,13 @@ form>.forgot-pass>a:hover{
 }
 .footer{
     background-color: #b5dbd8;
+    color: #17252a;
 }
 .nav-link.active:hover{
     background-color: #def2f1;
     border-radius: 5px;
+}
+.mails{
+    text-decoration: none;
+    color: #339591;
 }
