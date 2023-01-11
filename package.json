@@ -1,0 +1,23 @@
+{
+  "name": "shiksha-ekikaran",
+  "version": "1.0.0",
+  "description": "This is a platform to integrate all the technical educational institutions, providing the govt. and executive officials to understand how sudents are performing in a given area, so as to make new policies and boost development of students.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sanjay-2004/SHIKSHA-EKIKARAN.git"
+  },
+  "author": "Sanjay Agamamidi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sanjay-2004/SHIKSHA-EKIKARAN/issues"
+  },
+  "homepage": "https://github.com/Sanjay-2004/SHIKSHA-EKIKARAN#readme",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
+}

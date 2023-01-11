@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXECUTIVE</title>
+    <!-- <link rel="stylesheet" href="/bootstrap-5.2.2/css/bootstrap.css"> -->
+    <!-- <link rel="stylesheet" href="/bootstrap-5.2.2/css/p"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="shortcut icon" href="main.png" type="image/x-icon">
+    <link rel="stylesheet" href="govt.css">
+</head>
+<header class="container-fluid">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid justify-content-evenly">
+            <a class="navbar-brand" href="#">
+                <img src="logo1.png" alt="LOGO" width="50%">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link mx-4 insts" href="#">SCHOOLS</a>
+                    <a class="nav-link mx-4 insts" href="#">INTERMEDIATE</a>
+                    <a class="nav-link mx-4 insts" href="#">POLYTECHNIC</a>
+                    <a class="nav-link mx-4 insts" href="#">UNDERGRAD</a>
+                    <a class="nav-link mx-4 insts" href="#">POSTGRAD</a>
+                    <a class="nav-link mx-4 insts" href="#">PHD</a>
+                    <button class="btn btn-green mx-4" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                        FILTERS
+                    </button>
+                    <!-- Default dropstart button -->
+                    <div class="btn-group dropstart">
+                        <button type="button" class="profile py-2 ms-4 dropdown-toggle" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            PRO
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">PROFILE</a></li>
+                            <li><a class="dropdown-item" href="#">CHANGE PASSWORD</a></li>
+                            <li><a class="dropdown-item" href="#">SETTINGS</a></li><hr>
+                            <li><a class="dropdown-item" href="#">LOG OUT</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<body>
+
+    <div class="offcanvas filter offcanvas-start " tabindex="-1" id="offcanvasExample"
+        aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">CONTENT</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <center>
+
+                <div class="dropdown">
+                    <button class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        style="width:100%;text-align: center;">
+                        STATE
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" style="width:100%;text-align: center;">State 1</a></li>
+                        <li><a class="dropdown-item" style="width:100%;text-align: center;">State 2</a></li>
+                        <li><a class="dropdown-item" style="width:100%;text-align: center;">State 3</a></li>
+                    </ul>
+                </div>
+                <img class="mt-3 mx-auto map" src="/maps/telangana.jpg" alt="telangana" usemap="#telangana">
+                <form class="pt-4 pe-4">
+                    <span class="fs-5 pe-4 me-4">FROM</span><input class="py-1 ps-3 mb-2" type="date" id="From"
+                        style="border:1px solid black;border-radius:5px;"><br>
+                    <span class="fs-5 pe-4 me-4">TO</span><input class="py-1 ps-3" type="date" id="To"
+                        style="border:1px solid black;border-radius:5px;">
+                </form>
+                <hr>
+                <p class="pt-4 fs-4">FILTERS</p>
+                <ul class="list-group">
+                    <li class="list-group-item fs-6" style="background-color:#b5dbd8;"><a class="link-dark" href="#"
+                            style="text-decoration:none;">CASTE</a></li>
+                    <li class="list-group-item fs-6" style="background-color:#b5dbd8;"><a class="link-dark" href="#"
+                            style="text-decoration:none;">GENDER</a></li>
+                    <li class="list-group-item fs-6" style="background-color:#b5dbd8;"><a class="link-dark" href="#"
+                            style="text-decoration:none;">PHYSICALLY DISABLED</a></li>
+                    <li class="list-group-item fs-6" style="background-color:#b5dbd8;"><a class="link-dark" href="#"
+                            style="text-decoration:none;">SUBJECTS</a></li>
+                    <li class="list-group-item fs-6" style="background-color:#b5dbd8;"><a class="link-dark" href="#"
+                            style="text-decoration:none;"></a>BOARD</a></li>
+                </ul>
+                <div class="btn btn-dark mt-4" style="width:70%">DOWNLOAD</div>
+
+            </center>
+
+        </div>
+    </div>
+
+</body>
+<map name="telangana">
+    <area shape="circle" coords="105,234,7" href="#" alt="Hyderabad">
+    <area shape="rect" coords="88,2,155,61" href="#" alt="Adilabad">
+    <area shape="rect" coords="115,123,175,147" href="#" alt="Karimnagar">
+    <area shape="rect" coords="155,136,190,161" href="#" alt="Karimnagar">
+    <area shape="rect" coords="132,255,203,320" href="#" alt="Nalgonda">
+    <area shape="rect" coords="202,161,239,199" href="#" alt="Warangal">
+    <area shape="rect" coords="55,95,113,129" href="#" alt="Nizambad">
+    <area shape="rect" coords="10,278,89,303" href="#" alt="Mahabubnagar">
+    <area shape="rect" coords="14,254,40,275" href="#" alt="Mahabubnagar">
+    <area shape="rect" coords="8,305,35,326" href="#" alt="Mahabubnagar">
+    <area shape="rect" coords="259,222,294,242" href="#" alt="Mahabubnagar">
+    <area shape="rect" coords="228,240,321,263" href="#" alt="Mahabubnagar">
+    <area shape="rect" coords="261,265,296,294" href="#" alt="Mahabubnagar">
+</map>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+<!-- <script src="/bootstrap-5.2.2/js/bootstrap.bundle.js"></script>
+<script src="/bootstrap-5.2.2/js/bootstrap.js"></script>
+<script src="/bootstrap-5.2.2/js/popper.min.js"></script> -->
+
+</html>

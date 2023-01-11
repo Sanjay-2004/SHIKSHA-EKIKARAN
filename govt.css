@@ -1,0 +1,26 @@
+header,.filter{
+    background-color: #b5dbd8;
+    color: #17252a;
+}
+.profile{
+    border-radius: 100%;
+}
+.btn-green{
+    border: 2px solid #15504b;
+    cursor: pointer;
+}
+.btn-green:focus{
+    color: #17252a;
+    background-color: #649995;
+}
+.insts{
+    color: #17252a;
+}
+.insts:hover{
+    background-color: #7daba8;
+    color: #17252a;
+    border-radius: 10px;
+}
+.insts:focus{
+    color: #17252a;
+}
